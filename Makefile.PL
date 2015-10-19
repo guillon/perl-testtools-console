@@ -2,10 +2,10 @@
 
 use inc::Module::Install;
 
-name 'Console';
-version_from 'lib/Console.pm';
+name 'TestTools-Console';
+version_from 'lib/TestTools/Console.pm';
 author 'Christophe Guilln <christophe.guillon@st.com';
-abstract 'Console Interface Module';
+abstract 'Console Interfaces Module';
 license 'perl';
 perl_version '5.010';
 

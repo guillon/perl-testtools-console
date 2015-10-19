@@ -1,5 +1,5 @@
 ---
-abstract: 'Console Interface Module'
+abstract: 'Console Interfaces Module'
 author:
   - 'Christophe Guilln <christophe.guillon@st.com'
 build_requires:
@@ -15,7 +15,7 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Console
+name: TestTools-Console
 no_index:
   directory:
     - inc
@@ -28,4 +28,4 @@ requires:
   perl: 5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001
+version: 0.002

@@ -3,9 +3,9 @@ use warnings;
 use Test::More;
 use Test::Exception;
 
-BEGIN { use_ok "Console::TestFixedReadLine"; }
+BEGIN { use_ok "TestTools::Console::TestFixedReadLine"; }
 
-my $console = Console::TestFixedReadLine->New(
+my $console = TestTools::Console::TestFixedReadLine->New(
     output => [
         'output1',
         '',

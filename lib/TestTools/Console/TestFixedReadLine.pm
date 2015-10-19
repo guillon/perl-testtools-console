@@ -1,8 +1,8 @@
-package Console::TestFixedReadLine;
+package TestTools::Console::TestFixedReadLine;
 use strict;
 use warnings;
 use Class::Interface;
-&implements('Console::ReadLineIF');
+&implements('TestTools::Console::ReadLineIF');
 
 use Term::ReadLine;
 

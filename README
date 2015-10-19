@@ -1,20 +1,20 @@
 NAME
-    Console - Console Interfaces and Base Implementations
+    TestTools-Console - Console Interfaces and Base Implementations
 
 SYNOPSIS
-    Use Console::ReadLineIF as is:
+    Use TestTools::Console::ReadLineIF as is:
 
-      use Console::ReadlineIF;   # Interface
-      use Console::TermReadLine; # An implementation
+      use TestTools::Console::ReadlineIF;   # Interface
+      use TestTools::Console::TermReadLine; # An implementation
 
-      my $console_if = Console::TermReadLine->New();
+      my $console_if = TestTools::Console::TermReadLine->New();
       my $user_str = $console_if->readline('prompt >');
       print "returned: '$user_str'\n";
 
 DESCRIPTION
     This interface module abstracts console management operations.
     Ref to interfaces defined in:
-    - Console/ReadLineIF.pm: interface for readline with prompt
+    - TestTools/Console/ReadLineIF.pm: interface for readline with prompt
 
 EXAMPLES
     See SYNOPSYS above.
@@ -24,7 +24,7 @@ TO DO
     - Abstract Console In()/Out() in a bare Console/InOutStreamIF Interface
     - Complement with stream operators such as Pipe(), Tee(), Merge()
     - add more examples to this README
-    - Generate the README from Console/Console.pm POD
+    - Generate the README from TestTools/Console/Console.pm POD
     - find a namespace and publish to CPAN
 
 SEE ALSO
@@ -33,7 +33,7 @@ SEE ALSO
 SUPPORT
     Bugs should be reported via the CPAN bug tracker at
 
-    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Console>
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TestTools-Console>
 
     For other issues, contact the authors.
 

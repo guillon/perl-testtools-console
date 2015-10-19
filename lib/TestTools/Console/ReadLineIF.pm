@@ -1,4 +1,4 @@
-package Console::ReadLineIF;
+package TestTools::Console::ReadLineIF;
 use strict;
 use warnings;
 use Class::Interface;
@@ -7,3 +7,5 @@ use Class::Interface;
 sub ReadLine;
 sub In;
 sub Out;
+
+1;

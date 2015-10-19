@@ -1,8 +1,8 @@
-package Console::TermReadLine;
+package TestTools::Console::TermReadLine;
 use strict;
 use warnings;
 use Class::Interface;
-&implements('Console::ReadLineIF');
+&implements('TestTools::Console::ReadLineIF');
 
 use Term::ReadLine;
 
