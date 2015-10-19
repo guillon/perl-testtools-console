@@ -1,0 +1,48 @@
+NAME
+    Console - Console Interfaces and Base Implementations
+
+SYNOPSIS
+    Use Console::ReadLineIF as is:
+
+      use Console::ReadlineIF;   # Interface
+      use Console::TermReadLine; # An implementation
+
+      my $console_if = Console::TermReadLine->New();
+      my $user_str = $console_if->readline('prompt >');
+      print "returned: '$user_str'\n";
+
+DESCRIPTION
+    This interface module abstracts console management operations.
+    Ref to interfaces defined in:
+    - Console/ReadLineIF.pm: interface for readline with prompt
+
+EXAMPLES
+    See SYNOPSYS above.
+
+TO DO
+    Some work to be done:
+    - Abstract Console In()/Out() in a bare Console/InOutStreamIF Interface
+    - Complement with stream operators such as Pipe(), Tee(), Merge()
+    - add more examples to this README
+    - Generate the README from Console/Console.pm POD
+    - find a namespace and publish to CPAN
+
+SEE ALSO
+    Term::ReadLine
+
+SUPPORT
+    Bugs should be reported via the CPAN bug tracker at
+
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Console>
+
+    For other issues, contact the authors.
+
+AUTHORS
+    Christophe Guillon <chritophe.guillon@st.com>
+
+COPYRIGHT
+    Copyright 2015 STMicroelectronis Inc.
+
+LICENSE
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
