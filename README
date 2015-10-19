@@ -31,11 +31,11 @@ SEE ALSO
     Term::ReadLine
 
 SUPPORT
-    Bugs should be reported via the CPAN bug tracker at
+    Bugs should be reported via the github issue tracker at:
 
-    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TestTools-Console>
+    <https://github.com/guillon/perl-testtools-console/issues>
 
-    For other issues, contact the authors.
+    Alternatively, contact the authors.
 
 AUTHORS
     Christophe Guillon <chritophe.guillon@st.com>
